@@ -2,4 +2,4 @@
 
 It's currently very WIP
 
-You can see it [here](thendy.neocities.org)
+You can see it [here](https://thendy.neocities.org)
