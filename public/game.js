@@ -5,6 +5,8 @@ let clickSound = new Audio("https://files.catbox.moe/ucru76.ogg");
 let tadaSound = new Audio("https://files.catbox.moe/4g8iiy.ogg");
 const petIcon = `<img src="/petting.gif" style="height: 1.2em; vertical-align: middle; display: inline-block;">`;
 
+// Test change
+
 let gameSettings = {
   isMuted: false,
 };
