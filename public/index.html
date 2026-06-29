@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicom.ico" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Endy's world</title>
+  </head>
+  <body>
+    <div class="row">
+      <!--              LEFT COLUMN             -->
+      <div style="margin: 100px 0 0 0" class="column side">
+        <div id="capyReaction">
+          <a href="https://en.wikipedia.org/wiki/Capybara">
+            <img
+              class="capy"
+              src="/capybara-eating.gif"
+              alt="clickable image"
+            />
+          </a>
+          <p>LIVE CAPYBARA REACTION</p>
+        </div>
+      </div>
+
+      <!--              MIDDLE COLUMN              -->
+
+      <div style="margin: 100px 0 0 0" class="column middle">
+        <div class="square">
+          <div class="squareTitle">
+            <h1>Endy's world!</h1>
+          </div>
+          <div class="squareInside">
+            <p>Welcome to my website!</p>
+            <p>
+              <a href="https://imbenwolf.github.io/sanger.dk/">Click here!</a>
+            </p>
+            <div id="border">
+              <h4>Things I like:</h4>
+              <ul>
+                <li>Videogames</li>
+                <li>Kasane Teto</li>
+                <li>Vocaloids</li>
+                <li>
+                  <a href="https://en.wikipedia.org/wiki/Capybara">
+                    Capybaras</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--         GAME DIV         -->
+        <p></p>
+        <p></p>
+        <div class="square">
+          <div class="squareInside" style="position: relative">
+            <button id="settingsToggleButton" class="settings-toggle-button">
+                <img
+                  id="cogIcon"
+                  src="/cog.webp"
+                  alt="clickable image"
+                />
+              
+            </button>
+            <div
+              id="settingsOverlay"
+              class="settings-overlay"
+              style="display: none"
+            >
+              <div class="settings-content">
+                <button id="settingsCloseButton" class="settings-close-button">
+                  X
+                </button>
+                <h2>Settings</h2>
+                <label for="muteCheckbox">Muted: </label>
+                <input type="checkbox" id="muteCheckbox" class="mute-checkbox"></input>
+              </div>
+            </div>
+            <h3 style="text-align: center">Pet it!! (still WIP)</h3>
+            <div style="text-align: center" id="aboveCapyText"></div>
+            <div id="petCount" , style="font-size: 30px; visibility: hidden">
+              0
+            </div>
+            <div class="capyButtonContainer">
+              <button id="capyButton" class="cookieButton">
+                <img
+                  id="capyButtonImage"
+                  src="/transparentcapy.webp"
+                  alt="clickable image"
+                />
+              </button>
+            </div>
+            <div class="menu-row">
+              <div class="menu-column side">
+                <div class="tooltip">
+                <button
+                  id="autoclickButton"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  Buy AutoPetter
+                </button>
+                <span id="autoclickButtonTooltip" style="visibility: hidden" class="tooltiptext">test</span>
+                </div>
+                <button
+                  id="menuButton2"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  test2
+                </button>
+              </div>
+              <div class="menu-column middle">
+                <button
+                  id="menuButton3"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  test3
+                </button>
+                <button
+                  id="menuButton4"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  test4
+                </button>
+              </div>
+              <div class="menu-column side">
+                <button
+                  id="menuButton5"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  test5
+                </button>
+                <button
+                  id="menuButton6"
+                  style="visibility: hidden"
+                  class="menu-button"
+                >
+                  test6
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--         NEOCITIES BANNER (KEEP AT BOTTOM)         -->
+        <p></p>
+        <a href="https://www.neocities.org">
+          <img src="/neocities.png" alt="clickable image" />
+        </a>
+      </div>
+
+      <!--              RIGHT COLUMN              -->
+
+      <div style="margin: 100px 0 0 0; visibility: visible" class="column side">
+        <div style="margin: 200px 0 0 0" class="square">
+          <div class="squareTitle">
+            <h1>About me</h1>
+          </div>
+          <div class="squareInside">
+            <div class="flagcontainer">
+              <div class="tooltip">
+                <img
+                  style="border-radius: 5px; margin: auto"
+                  width="100"
+                  height="50"
+                  src="/ace_flag.png"
+                /><span class="tooltiptext">Asexual</span>
+              </div>
+              <div class="tooltip">
+                <img
+                  style="border-radius: 5px; margin: auto"
+                  width="100"
+                  height="50"
+                  src="/ace_flag.png"
+                /><span class="tooltiptext">Asexual2</span>
+              </div>
+            </div>
+
+            <div style="text-align: center">
+              <p>gay gay homosexual</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--              END OF COLUMNS              -->
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
